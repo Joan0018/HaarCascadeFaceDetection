@@ -33,7 +33,7 @@ while True:
     duration = end - start
     duration_in_s = duration.total_seconds()
     print(duration_in_s)
-    ##################################################`
+    ##################################################
     k = cv2.waitKey(5) & 0xFF
     if k == 27:
         break
